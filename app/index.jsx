@@ -7,7 +7,7 @@ export default function App() {
         <View style={styles.container}>
             <Text style={styles.titleText}>ACSITS-Pro</Text>
             <StatusBar style="auto" />
-            <Link href="profile" style={styles.link}>Go to Profile</Link>
+            <Link href="/home" style={styles.link}>Go to Profile</Link>
         </View>
     );
 }
